@@ -1,36 +1,60 @@
-<div align="center"> 
-  <h1>Inventory Management System Using C++</h1>
-</div>
-    
- <div align='center'>
-       <a><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a> &nbsp;
+<div align="center">
+
+# 🛒 INVENTORY-MANAGEMENT-SYSTEM
+
+*Manage products, stock, and customer purchases efficiently with a console-based linked list system.*
+
+![last commit](https://img.shields.io/github/last-commit/Muhammad-Ahmed-Rayyan/Inventory-Management-System)
+![cpp](https://img.shields.io/badge/C++-100%25-blue)
+![languages](https://img.shields.io/github/languages/count/Muhammad-Ahmed-Rayyan/Inventory-Management-System)
+
+<br>
+
+Built with the tools and technologies:
+
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
+![Console](https://img.shields.io/badge/Console-Application-lightgrey)
 
 </div>
 
---------------------------
+---
 
-## Overview
+## 🚀 Overview
 
-This C++ project serves as a comprehensive practice exercise for beginners looking to enhance their programming skills. The Grocery Ordering System is designed as a real-world application, incorporating essential C++ concepts like object-oriented programming, data encapsulation, and polymorphism.
+**Inventory-Management-System** is a C++ console application that simulates a departmental store (**SZABIST Mart**) allowing both vendor and customer operations.  
+It is built entirely from scratch using linked lists for dynamic management of categories, products, and a shopping cart.
 
---------------------------
+---
 
-## Features
+## ✨ Features
 
-- **Object-Oriented Design:** Demonstrates the use of classes and objects to create a structured program.
-- **Vendor and Customer Menus:** Provides separate interfaces for vendors and customers.
-- **Vendor Operations:**
-  - Add, delete, and update products and categories.
-  - View all items in a category.
-- **Customer Operations:**
-  - Add and remove items from the order.
-  - View the ordered items and cart.
-- **Automated Billing:** Generates a bill after all items are ordered.
-- **Automatic Stock Update:** Updates stock levels when an order is placed.
+- **🗂️ Vendor Portal**
+  - Create new product categories
+  - Add, update, or remove products
+  - Manage stock levels and pricing
 
---------------------------
+- **🛍️ Customer Portal**
+  - Browse categories and products
+  - Add or remove items from the cart
+  - Generate a detailed bill with tax
 
-## Concepts Utilized
+- **📝 Bill Output**
+  - Generates a `bill.txt` file summarizing purchases, tax, and total.
+
+---
+
+## 🏗️ Project Structure
+
+| File            | Description                                      |
+|-----------------|--------------------------------------------------|
+| `vendor.c++`    | Main driver file, menus for vendor & customer    |
+| `categories.c++`| Linked list implementation for product catalog   |
+| `cart.c++`      | Linked list implementation for shopping cart     |
+| `bill.txt`      | Sample output bill after customer checkout       |
+
+---
+
+## 📋 Concepts Utilized
 
 - **Class and Objects:** Building blocks of the program, encapsulating data and functionality.
 - **Constructors:** Initialization of valid values for data members when objects are created.
@@ -40,34 +64,31 @@ This C++ project serves as a comprehensive practice exercise for beginners looki
 - **Singly Linked List:** Collection of nodes linked together, used for dynamic data storage.
 - **File Handling:** Mechanism to store program output in a file.
 
---------------------------
+---
 
-## Usage
+## ⚙️ Compilation & Running
 
-1. Clone the repository.
-2. Compile and run the C++ program.
+Use `g++` (or any C++ compiler) to compile:
 
---------------------------
+```bash
+# Compile the program
+g++ vendor.c++ -o inventory
 
-## Credits for this Read ME File(Not for The Code)
-GenAI 3.5
+# Run the program
+./inventory
+```
 
---------------------------
+---
 
-## Note
-
-This project is designed for educational purposes, emphasizing the application of C++ concepts in a practical scenario. Data is non-persistent between program sessions.
-
-Feel free to explore, learn, and modify as needed!
-
---------------------------
-
-## License
+## 📝 License
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-----------------------------
+---
 
-## Feedback
-If you have any feedback, please reach out to us at voidex.developer@gmail.com
+## ⭐ Credits
 
+- Developed with pure C++ and linked lists.
+- Licensed under MIT.
+
+---
