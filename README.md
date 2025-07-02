@@ -13,7 +13,7 @@
 Built with the tools and technologies:
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
-![Console](https://img.shields.io/badge/Console-Application-lightgrey)
+![Console](https://img.shields.io/badge/Console-Application-grey)
 
 </div>
 
@@ -80,15 +80,9 @@ g++ vendor.c++ -o inventory
 
 ---
 
-## 📝 License
-
-[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
-
----
-
-## ⭐ Credits
+## 📝 Credits
 
 - Developed with pure C++ and linked lists.
 - Licensed under MIT.
-
+    [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 ---
