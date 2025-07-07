@@ -87,3 +87,9 @@ g++ vendor.c++ -o inventory
 
     [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 ---
+
+<div align="center">
+
+⭐ If this project made your life easier, please star it on GitHub!
+
+</div>
