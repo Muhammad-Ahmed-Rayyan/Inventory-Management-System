@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛒 INVENTORY-MANAGEMENT-SYSTEm
+# 🛒 INVENTORY-MANAGEMENT-SYSTEM
 
 *Manage products, stock, and customer purchases efficiently with a console-based linked list system.*
 
